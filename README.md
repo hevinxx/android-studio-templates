@@ -7,7 +7,7 @@ To use the files in the live-templates folder:
 
 1. Open Android Studio.
 2. Go to Preferences > Editor > Live Templates.
-3. Click the + button to add a new template.
+3. Click on the template group with the same name as the folder where the file is located, then click the + button to add a new template.
 4. Set the file name to the Abbreviation field.
 5. Copy the content of the file into the Template text field.
 6. Apply and save your changes.
