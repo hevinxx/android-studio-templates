@@ -1,4 +1,0 @@
-try {
-    $END$
-} catch (e: $EXEPTION_TYPE$) {
-}

@@ -9,7 +9,7 @@ import androidx.compose.ui.tooling.preview.Preview
 fun ${NAME}() {
 }
 
-@Preview(showBackground = true)
+@Preview()
 @Composable
 fun ${NAME}Preview() {
     ${NAME}()

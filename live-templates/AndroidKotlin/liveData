@@ -1,2 +1,0 @@
-private val _$NAME$ = androidx.lifecycle.MutableLiveData<$TYPE$>()
-val $NAME$: androidx.lifecycle.LiveData<$TYPE$> = _$NAME$

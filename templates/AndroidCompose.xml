@@ -1,0 +1,7 @@
+<templateSet group="AndroidCompose">
+  <template name="modi" value="modifier = androidx.compose.ui.Modifier" description="Add default Modifier" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

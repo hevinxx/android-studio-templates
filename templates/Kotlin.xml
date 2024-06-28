@@ -1,0 +1,8 @@
+<templateSet group="Kotlin">
+  <template name="try" value="try {&#10;    $END$&#10;} catch (e: $EXEPTION_TYPE$) {&#10;}" description="Create a try/catch clause" toReformat="false" toShortenFQNames="true">
+    <variable name="EXEPTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
