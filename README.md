@@ -14,10 +14,10 @@ After restarting Android Studio, you can verify the templates have been added:
 ### Usage
 - File and Code Templates: These templates can be selected as options when creating a new file.
 - Live Templates: These templates can be used anytime by typing the abbreviation and pressing the Tab key.
-### Available Templates
-#### File and Code Templates
+## Available Templates
+### File and Code Templates
 - Kotlin Composable: Ideal for creating a new Composable function in a new file.
-#### Live Templates
+### Live Templates
 - modi: Inserts a default Modifier.
 - liveData: Conveniently inserts a pair of MutableLiveData and LiveData.
 - try: Quickly inserts a try/catch block.
