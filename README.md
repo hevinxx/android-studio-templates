@@ -4,7 +4,7 @@ A collection of ready-to-use templates for Android Studio, designed to streamlin
 ## Installation and Usage
 ### Setup 
 1. Download this repository
-2. Visit [this page](https://www.jetbrains.com/help/idea/directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.html#config-directory) to find the Android Studio config directory. 
+2. To find the Android Studio config directory, open Android Studio and navigate to File > Manage IDE Settings > Export Settings.... The path shown in the "Export settings to:" field is the config directory.
 3. Place the `fileTemplates` folder and the `templates` folder into the config directory.
 4. Restart Android Studio.
 ### Verification
