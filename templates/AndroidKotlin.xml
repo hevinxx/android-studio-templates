@@ -1,5 +1,5 @@
 <templateSet group="AndroidKotlin">
-  <template name="liveData" value="private val _$NAME$ = androidx.lifecycle.MutableLiveData&lt;$TYPE$&gt;()&#10;val $NAME$: androidx.lifecycle.LiveData&lt;$TYPE$&gt; = _$NAME$" description="Create a pair of MutableLiveData and LiveData" toReformat="true" toShortenFQNames="true">
+  <template name="liveData" value="private val _$NAME$ = androidx.lifecycle.MutableLiveData&lt;$TYPE$&gt;()&#10;val $NAME$: androidx.lifecycle.LiveData&lt;$TYPE$&gt;&#10;    get() = _$NAME$" description="Create a pair of MutableLiveData and LiveData" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
