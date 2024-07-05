@@ -1,0 +1,14 @@
+<templateSet group="AndroidParcelableKotlin">
+  <template name="parcelize" value="@kotlinx.parcelize.Parcelize&#10;class $NAME$($END$): android.os.Parcelable {&#10;}&#10;" description="Create a parcelable class with kotlin-parcelize" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="parcelizeData" value="@kotlinx.parcelize.Parcelize&#10;data class $NAME$(&#10;$END$&#10;): android.os.Parcelable&#10;" description="Create a parcelable data class with kotlin-parcelize" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -20,6 +20,8 @@ After restarting Android Studio, you can verify the templates have been added:
 ### Live Templates
 - modi: Inserts a default Modifier.
 - liveData: Conveniently inserts a pair of MutableLiveData and LiveData.
+- parcelize: Make a parcelable class with parcelize annotation.
+- parcelizeData: Make a parcelable data class with parcelize annotation.
 - try: Quickly inserts a try/catch block.
 These templates are designed to save you time and effort during development by providing reusable code snippets and structures.
 
