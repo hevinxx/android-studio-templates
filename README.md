@@ -26,6 +26,7 @@ After restarting Android Studio, you can verify the templates have been added:
 - liveData: Conveniently inserts a pair of MutableLiveData and LiveData.
 - parcelize: Make a parcelable class with parcelize annotation.
 - parcelizeData: Make a parcelable data class with parcelize annotation.
+- remst: Create a mutable state and remember it.
 - try: Quickly inserts a try/catch block.
 - viewBindingActivity: Create a view-binded activity.
 - viewBindingFragment: Create a view-binded fragment.

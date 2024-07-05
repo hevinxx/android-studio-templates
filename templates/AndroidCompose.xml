@@ -4,4 +4,12 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="remst" value="val $NAME$: $TYPE$ by androidx.compose.runtime.remember {&#10;    androidx.compose.runtime.mutableStateOf($DEFAULT_VALUE$)&#10;}" description="Create a mutable state and remember it" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
