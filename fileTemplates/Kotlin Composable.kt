@@ -3,14 +3,13 @@
 #end
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-
 #parse("File Header.java")
 @Composable
-fun ${NAME}() {
+fun ${FILE_NAME}() {
 }
 
 @Preview()
 @Composable
-fun ${NAME}Preview() {
-    ${NAME}()
+fun ${FILE_NAME}Preview() {
+    ${FILE_NAME}()
 }

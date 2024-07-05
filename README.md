@@ -16,6 +16,10 @@ After restarting Android Studio, you can verify the templates have been added:
 - Live Templates: These templates can be used anytime by typing the abbreviation and pressing the Tab key.
 ## Available Templates
 ### File and Code Templates
+- Android Activity: Ideal for creating a new Activity in a new file.
+- Android Fragment: Ideal for creating a new Fragment in a new file.
+- Android Activity: Ideal for creating a new Activity with view binding in a new file.
+- Android Fragment: Ideal for creating a new Fragment with view binding in a new file.
 - Kotlin Composable: Ideal for creating a new Composable function in a new file.
 ### Live Templates
 - modi: Inserts a default Modifier.
@@ -23,5 +27,7 @@ After restarting Android Studio, you can verify the templates have been added:
 - parcelize: Make a parcelable class with parcelize annotation.
 - parcelizeData: Make a parcelable data class with parcelize annotation.
 - try: Quickly inserts a try/catch block.
+- viewBindingActivity: Create a view-binded activity.
+- viewBindingFragment: Create a view-binded fragment.
 These templates are designed to save you time and effort during development by providing reusable code snippets and structures.
 

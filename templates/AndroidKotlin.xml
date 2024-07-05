@@ -6,4 +6,18 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="viewBindingActivity" value="class $NAME$ : androidx.appcompat.app.AppCompatActivity() {&#10;&#10;    private lateinit var binding: $VIEW_BINDING$&#10;&#10;    override fun onCreate(savedInstanceState: android.os.Bundle?) {&#10;        super.onCreate(savedInstanceState)&#10;        binding = $VIEW_BINDING$.inflate(layoutInflater)&#10;        val view = binding.root&#10;        setContentView(view)&#10;    }&#10;    $END$&#10;}" description="Create a view-binded activity" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_BINDING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="viewBindingFragment" value="class $NAME$ : androidx.fragment.app.Fragment() {&#10;&#10;    private var _binding: $VIEW_BINDING$? = null&#10;    private val binding get() = _binding!!&#10;&#10;    override fun onCreateView(&#10;        inflater: android.view.LayoutInflater,&#10;        container: android.view.ViewGroup?,&#10;        savedInstanceState: android.os.Bundle?&#10;    ): android.view.View {&#10;        _binding = $VIEW_BINDING$.inflate(inflater, container, false)&#10;        val view = binding.root&#10;        return view&#10;    }&#10;    $END$&#10;    override fun onDestroyView() {&#10;        super.onDestroyView()&#10;        _binding = null&#10;    }&#10;}" description="Create a view-binded activity" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_BINDING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
