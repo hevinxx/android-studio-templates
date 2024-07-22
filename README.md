@@ -27,8 +27,8 @@ After restarting Android Studio, you can verify the templates have been added:
 - parcelize: Make a parcelable class with parcelize annotation.
 - parcelizeData: Make a parcelable data class with parcelize annotation.
 - remst: Create a mutable state and remember it.
+- stateFlow: Conveniently inserts a pair of MutableStateFlow and StateFlow.
 - try: Quickly inserts a try/catch block.
 - viewBindingActivity: Create a view-binded activity.
 - viewBindingFragment: Create a view-binded fragment.
 These templates are designed to save you time and effort during development by providing reusable code snippets and structures.
-

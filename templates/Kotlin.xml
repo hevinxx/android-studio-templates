@@ -1,4 +1,12 @@
 <templateSet group="Kotlin">
+  <template name="stateFlow" value="private val _$NAME$ = kotlinx.coroutines.flow.MutableStateFlow($DEFAULT_VALUE$)&#10;val $NAME$: kotlinx.coroutines.flow.StateFlow&lt;$TYPE$&gt; = _$NAME$" description="Create a pair of MutableStateFlow and StateFlow" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
   <template name="try" value="try {&#10;    $END$&#10;} catch (e: $EXEPTION_TYPE$) {&#10;}" description="Insert a try/catch block" toReformat="true" toShortenFQNames="true">
     <variable name="EXEPTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
